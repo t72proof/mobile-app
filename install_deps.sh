@@ -1,0 +1,2 @@
+npm install
+cp auth_dependencies/ node_modules/authentication
