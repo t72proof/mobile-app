@@ -6,7 +6,7 @@ export default function NotificationList({ items, fields, onPress }) {
 	return (
 		<FlatList
 			data={items}
-			renderItem={({ item }) => <NotificationItem data={item} fields={fields} onPress={onPress} />} 
+			renderItem={({ item }) => <NotificationItem key={item.id} data={item} fields={fields} onPress={onPress} />} 
 		/>
 	);
 }

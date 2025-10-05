@@ -78,7 +78,7 @@ export default function SignUp() {
         </Text>
       </View>
 
-      <View className="mb-6 space-y-4">
+      <View>
         <View>
           <TextInput
             style={styles.centerText}
@@ -126,7 +126,6 @@ export default function SignUp() {
       </View>
 
       <TouchableOpacity
-        className="mb-4 rounded-md bg-primary p-4"
         onPress={handleSignUp}
       >
         <Text style={[styles.heading2, styles.centerText]}>
@@ -138,7 +137,7 @@ export default function SignUp() {
         <Text style={[styles.centerText]}>{'\n'}</Text>
       </View>
 
-      <View className="flex-row justify-center">
+      <View>
         <TouchableOpacity onPress={navigateToSignIn}>
           <Text style={[styles.heading2, styles.centerText]}>Already have an account? Sign In</Text>
         </TouchableOpacity>
